@@ -36,7 +36,8 @@ print(my_authors[3:7])
 
 # Code here
 # Example: my_author_tuple = ("F. Scott Fitzgerald", "J.K. Rowling", "Ernest Hemingway", "Emily Dickenson", "George Orwell", "Ray Bradbury")
-
+author_tuple = ('Sally Rooney','Alan Moore', 'Stan Lee' )
+print(author_tuple)
 
 ### Step 3 - Sets ###
 
@@ -44,19 +45,20 @@ print(my_authors[3:7])
 
 # Code here
 # Example: my_author_set = {"F. Scott Fitzgerald", "J.K. Rowling", "Ernest Hemingway", "Emily Dickenson", "George Orwell", "Ray Bradbury"}
-
+author_set = {'J. R. R. Tolkien', 'George R. R. Martin', 'Stephen King', 'Mark Twain', 'George Orwell', 'Jane Austen', 'Agatha Christie','Shakespeare'}
 
 # Add a new author to your set.
 
 # Code here
 # Example: my_author_set.add("J.R.R. Tolkien")
-
-
+author_set.add('Alan Moore')
+print(author_set)
 # Try adding the same author again, and be sure to print your set.
 
 # Code here
 # Example: my_author_set.add("J.R.R. Tolkien")
-
+author_set.add('Alan Moore')
+print(author_set)
 
 
 ### Step 4 - For Loops ###
@@ -66,12 +68,12 @@ print(my_authors[3:7])
 # Code here
 # Example:
 
-# for book in my_authors:
-    # print(book)
+for book in my_authors:
+    print(book)
 
-# for book in my_authors_tuple:
-    # print(book)
+for book in author_tuple:
+    print(book)
 
-# for book in my_authors_set:
-    # print(book)
+for book in author_set:
+    print(book)
 
