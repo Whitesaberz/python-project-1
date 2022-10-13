@@ -16,6 +16,7 @@ print(my_authors)
 # Code here
 # Example: my_authors.remove("H.G. Wells")
 my_authors.remove('Agatha Christie')
+my_authors.pop()
 print(my_authors)
 
 # Now access an element by it's index. (Remember it indexes start at 0.)
@@ -68,12 +69,12 @@ print(author_set)
 # Code here
 # Example:
 
-for book in my_authors:
-    print(book)
+for author in my_authors:
+    print(author)
 
-for book in author_tuple:
-    print(book)
+for author in author_tuple:
+    print(author)
 
-for book in author_set:
-    print(book)
+for author in author_set:
+    print(author)
 
