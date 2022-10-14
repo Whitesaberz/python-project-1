@@ -5,7 +5,7 @@ my_book = {
     "rating": 4.32,
     "pages": 374
 }
-the_book_list = {
+the_book_list = [{
     "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkein",
     "year": 1954,
@@ -25,7 +25,7 @@ the_book_list = {
     "year": 1955,
     "rating": 4.99,
     "pages": 416
-}
+}]
 
 
 # Follow the instructions in this part of the project. Define and flesh out your function below, which should accept a dictionary as an argument when called, and return a string of the info in that book-dictionary in a user-friendly readable format.
